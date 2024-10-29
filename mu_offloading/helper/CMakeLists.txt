@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 3.26)
+project(metisx_helper)
+set(CMAKE_CXX_STANDARD 17)
+set(METISX_SDK_PATH /home/smshin/workspace/sdk)
+message(STATUS ${METISX_SDK_PATH})
+
+add_library(${PROJECT_NAME} SHARED metisx_helper.cpp)
+target_include_directories(${PROJECT_NAME} PRIVATE /home/smshin/workspace/sdk/metisx)
+target_link_directories(${PROJECT_NAME} PRIVATE /home/smshin/workspace/sdk/out/build/Debug/metisx)
+target_link_libraries(${PROJECT_NAME} metisx)
+target_compile_definitions(${PROJECT_NAME} PRIVATE _SIM_=1)

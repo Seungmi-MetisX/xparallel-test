@@ -1,0 +1,31 @@
+cmake_minimum_required(VERSION 3.26)
+project(xparallel)
+set(CMAKE_CXX_STANDARD 17)
+set(METISX_SDK_PATH /home/smshin/workspace/sdk)
+message(STATUS ${METISX_SDK_PATH})
+
+# include_directories(${METISX_SDK_PATH}/metisx ${CMAKE_CURRENT_SOURCE_DIR})
+# link_directories(${METISX_SDK_PATH}/out/build/Debug/metisx)
+# link_libraries(metisx)
+# add_compile_definitions(_SIM_=1)
+
+add_library(${PROJECT_NAME} SHARED xparallel.cpp)
+target_include_directories(${PROJECT_NAME} PRIVATE  ${METISX_SDK_PATH}/metisx ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_directories(${PROJECT_NAME} PRIVATE  ${METISX_SDK_PATH}/out/build/Debug/metisx)
+target_link_libraries(${PROJECT_NAME} metisx)
+target_compile_definitions(${PROJECT_NAME} PRIVATE _SIM_=1)
+
+
+add_compile_definitions(CPP_TEST)
+add_library(xparallel-for-test SHARED xparallel.cpp)
+target_include_directories(xparallel-for-test PRIVATE  ${METISX_SDK_PATH}/metisx ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_directories(xparallel-for-test PRIVATE  ${METISX_SDK_PATH}/out/build/Debug/metisx)
+target_link_libraries(xparallel-for-test metisx)
+target_compile_definitions(xparallel-for-test PRIVATE _SIM_=1 CPP_TEST)
+
+add_executable(xparallel_test xparallel_test.cpp )
+target_include_directories(xparallel_test PRIVATE  ${METISX_SDK_PATH}/metisx ${CMAKE_CURRENT_SOURCE_DIR})
+target_link_directories(xparallel_test PRIVATE  ${METISX_SDK_PATH}/out/build/Debug/metisx)
+target_link_libraries(xparallel_test PRIVATE ${PROJECT_NAME})
+add_dependencies(xparallel_test xparallel-for-test)
+target_compile_definitions(xparallel_test PRIVATE CPP_TEST)

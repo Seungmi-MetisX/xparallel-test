@@ -1,0 +1,1339 @@
+﻿2024-09-02 20:12:36.932 INFO  [1971137] [preboot@52] [1B] SIM
+2024-09-02 20:12:36.932 INFO  [1971137] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:12:36.932 INFO  [1971137] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:12:36.932 INFO  [1971137] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:12:36.932 INFO  [1971137] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:12:36.932 INFO  [1971137] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:12:36.932 INFO  [1971137] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:12:36.932 INFO  [1971137] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:12:36.933 INFO  [1971137] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:13:24.948 INFO  [1971485] [preboot@52] [1B] SIM
+2024-09-02 20:13:24.948 INFO  [1971485] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:13:24.948 INFO  [1971485] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:13:24.948 INFO  [1971485] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:13:24.948 INFO  [1971485] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:13:24.948 INFO  [1971485] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:13:24.948 INFO  [1971485] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:13:24.949 INFO  [1971485] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:13:33.818 INFO  [1971843] [preboot@52] [1B] SIM
+2024-09-02 20:13:33.818 INFO  [1971843] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:13:33.818 INFO  [1971843] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:13:33.819 INFO  [1971843] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:13:33.819 INFO  [1971843] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:13:33.819 INFO  [1971843] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:13:33.819 INFO  [1971843] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:13:33.819 INFO  [1971843] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:13:33.819 INFO  [1971843] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:13:33.819 INFO  [1971843] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:13:33.819 INFO  [1971843] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:13:33.819 INFO  [1971843] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:13:33.820 INFO  [1971843] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:13:33.820 INFO  [1971843] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:13:33.820 INFO  [1971843] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:13:33.820 INFO  [1971843] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:13:34.243 INFO  [1971843] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:13:34.364 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:13:34.364 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:13:34.366 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:13:34.366 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:13:34.367 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:13:34.368 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:13:34.368 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:13:34.369 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:13:34.370 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:13:34.371 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:13:34.371 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:13:34.372 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:13:34.372 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.373 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:13:34.374 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.374 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.375 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.376 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.377 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:13:34.377 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:13:34.378 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:13:34.379 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.379 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.379 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.380 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.381 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.381 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.382 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:13:34.383 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:13:34.383 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:13:34.384 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:13:34.385 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:13:34.386 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:13:34.387 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:13:34.387 INFO  [1971843] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:17:46.747 INFO  [1974162] [preboot@52] [1B] SIM
+2024-09-02 20:17:46.747 INFO  [1974162] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:17:46.747 INFO  [1974162] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:17:46.748 INFO  [1974162] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:17:46.748 INFO  [1974162] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:17:46.748 INFO  [1974162] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:17:46.748 INFO  [1974162] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:17:46.749 INFO  [1974162] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:17:46.749 INFO  [1974162] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:17:46.749 INFO  [1974162] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:17:47.175 INFO  [1974162] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:17:47.295 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:17:47.296 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:17:47.297 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:17:47.298 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:17:47.298 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:17:47.299 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:17:47.300 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:17:47.301 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:17:47.301 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:17:47.302 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:17:47.303 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:17:47.303 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:17:47.304 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.304 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:17:47.305 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.306 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.307 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.307 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.308 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:17:47.309 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] nan 
+2024-09-02 20:17:47.309 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:17:47.310 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.310 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.311 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.312 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.312 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.312 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.313 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0 
+2024-09-02 20:17:47.314 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:17:47.315 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:17:47.316 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:17:47.316 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:17:47.317 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:17:47.318 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:17:47.319 INFO  [1974162] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:20:19.491 INFO  [1975503] [preboot@52] [1B] SIM
+2024-09-02 20:20:19.491 INFO  [1975503] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:20:19.491 INFO  [1975503] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:20:19.491 INFO  [1975503] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:20:19.491 INFO  [1975503] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:20:19.491 INFO  [1975503] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:20:19.492 INFO  [1975503] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:20:19.492 INFO  [1975503] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:20:19.492 INFO  [1975503] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:20:19.492 INFO  [1975503] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:20:19.492 INFO  [1975503] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:20:19.493 INFO  [1975503] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:20:19.493 INFO  [1975503] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:20:19.493 INFO  [1975503] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:20:19.493 INFO  [1975503] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:20:19.915 INFO  [1975503] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:20:20.035 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:20:20.035 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:20:20.037 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:20:20.037 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:20:20.038 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:20:20.039 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:20:20.039 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:20:20.040 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:20:20.041 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:20:20.041 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:20:20.042 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:20:20.043 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:20:20.044 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:20:20.044 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:20:20.045 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:20:20.046 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:20:20.047 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:20:20.048 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:20:20.048 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.264457 
+2024-09-02 20:20:20.049 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:20:20.050 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:20:20.050 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:20:20.051 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 5160 
+2024-09-02 20:20:20.052 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:20:20.052 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 12990 
+2024-09-02 20:20:20.053 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:20:20.054 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 17731 
+2024-09-02 20:20:20.054 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 18824 
+2024-09-02 20:20:20.055 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:20:20.056 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:20:20.057 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:20:20.058 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:20:20.058 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:20:20.059 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:20:20.060 INFO  [1975503] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:30:57.587 INFO  [1980322] [preboot@52] [1B] SIM
+2024-09-02 20:30:57.587 INFO  [1980322] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:30:57.587 INFO  [1980322] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:30:57.587 INFO  [1980322] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:30:57.587 INFO  [1980322] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:30:57.587 INFO  [1980322] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:30:57.587 INFO  [1980322] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:30:57.588 INFO  [1980322] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:30:58.020 INFO  [1980322] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:30:58.143 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:30:58.144 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:30:58.145 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:30:58.146 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:30:58.146 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:30:58.147 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:30:58.148 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:30:58.148 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:30:58.149 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:30:58.150 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:30:58.150 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:30:58.151 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:30:58.152 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:30:58.153 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:30:58.153 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:30:58.154 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:30:58.155 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:30:58.156 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:30:58.157 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.264457 
+2024-09-02 20:30:58.158 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:30:58.158 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:30:58.159 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:30:58.160 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 5160 
+2024-09-02 20:30:58.160 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:30:58.161 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 12990 
+2024-09-02 20:30:58.162 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:30:58.162 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 17731 
+2024-09-02 20:30:58.163 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 18824 
+2024-09-02 20:30:58.164 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:30:58.165 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:30:58.165 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:30:58.166 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:30:58.167 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:30:58.168 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:30:58.169 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:30:58.171 INFO  [1980322] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 328953984.000000
+2024-09-02 20:31:26.812 INFO  [1980561] [preboot@52] [1B] SIM
+2024-09-02 20:31:26.812 INFO  [1980561] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:31:26.813 INFO  [1980561] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:31:26.813 INFO  [1980561] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:31:26.813 INFO  [1980561] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:31:26.813 INFO  [1980561] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:31:26.813 INFO  [1980561] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:31:26.813 INFO  [1980561] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:31:26.813 INFO  [1980561] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:31:26.814 INFO  [1980561] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:31:27.251 INFO  [1980561] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:31:27.376 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:31:27.376 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:31:27.377 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:31:27.378 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:31:27.379 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:31:27.379 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:31:27.380 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:31:27.381 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:31:27.381 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:31:27.382 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:31:27.383 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:31:27.383 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:31:27.385 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:31:27.385 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:31:27.386 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:31:27.387 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:31:27.388 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:31:27.389 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:31:27.389 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.264457 
+2024-09-02 20:31:27.390 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:31:27.391 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:31:27.391 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:31:27.392 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 5160 
+2024-09-02 20:31:27.393 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:31:27.393 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 12990 
+2024-09-02 20:31:27.394 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:31:27.395 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 17731 
+2024-09-02 20:31:27.395 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 18824 
+2024-09-02 20:31:27.396 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:31:27.397 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:31:27.398 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:31:27.399 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:31:27.399 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:31:27.400 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:31:27.401 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:31:27.403 INFO  [1980561] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 328953984.000000
+2024-09-02 20:31:38.636 INFO  [1980951] [preboot@52] [1B] SIM
+2024-09-02 20:31:38.636 INFO  [1980951] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:31:38.636 INFO  [1980951] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:31:38.636 INFO  [1980951] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:31:38.636 INFO  [1980951] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:31:38.636 INFO  [1980951] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:31:38.636 INFO  [1980951] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:31:38.637 INFO  [1980951] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:31:39.064 INFO  [1980951] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:31:39.187 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:31:39.187 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:31:39.188 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:31:39.189 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:31:39.190 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:31:39.190 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:31:39.191 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:31:39.192 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:31:39.192 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:31:39.193 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:31:39.194 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:31:39.194 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:31:39.195 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:31:39.196 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:31:39.197 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:31:39.198 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:31:39.199 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:31:39.200 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:31:39.200 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.264457 
+2024-09-02 20:31:39.201 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:31:39.201 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:31:39.202 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:31:39.203 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 5160 
+2024-09-02 20:31:39.204 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:31:39.204 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 12990 
+2024-09-02 20:31:39.205 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:31:39.206 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 17731 
+2024-09-02 20:31:39.206 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 18824 
+2024-09-02 20:31:39.207 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:31:39.208 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:31:39.209 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:31:39.210 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:31:39.210 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:31:39.211 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:31:39.212 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:31:39.214 INFO  [1980951] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-02 20:32:41.166 INFO  [1981707] [preboot@52] [1B] SIM
+2024-09-02 20:32:41.166 INFO  [1981707] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-02 20:32:41.166 INFO  [1981707] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-02 20:32:41.166 INFO  [1981707] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-02 20:32:41.166 INFO  [1981707] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-02 20:32:41.166 INFO  [1981707] [initHalP5@51] [uB] init Hal P5 done
+2024-09-02 20:32:41.166 INFO  [1981707] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-02 20:32:41.167 INFO  [1981707] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-02 20:32:41.592 INFO  [1981707] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-02 20:32:41.716 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-02 20:32:41.717 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-02 20:32:41.718 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 503 
+2024-09-02 20:32:41.719 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 2696 
+2024-09-02 20:32:41.720 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 3448 
+2024-09-02 20:32:41.720 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:32:41.721 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 6582 
+2024-09-02 20:32:41.722 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:32:41.722 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11475 
+2024-09-02 20:32:41.723 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 11566 
+2024-09-02 20:32:41.724 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:32:41.724 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.118419 
+2024-09-02 20:32:41.725 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.828746 
+2024-09-02 20:32:41.726 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.728158 
+2024-09-02 20:32:41.727 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.850514 
+2024-09-02 20:32:41.728 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.506669 
+2024-09-02 20:32:41.728 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.231218 
+2024-09-02 20:32:41.729 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.083023 
+2024-09-02 20:32:41.730 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.264457 
+2024-09-02 20:32:41.731 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:32:41.731 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-02 20:32:41.732 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 4531 
+2024-09-02 20:32:41.733 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 5160 
+2024-09-02 20:32:41.733 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 9267 
+2024-09-02 20:32:41.734 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 12990 
+2024-09-02 20:32:41.735 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 14918 
+2024-09-02 20:32:41.736 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 17731 
+2024-09-02 20:32:41.736 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 18824 
+2024-09-02 20:32:41.737 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.966211 
+2024-09-02 20:32:41.738 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.977599 
+2024-09-02 20:32:41.739 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.829815 
+2024-09-02 20:32:41.740 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.924045 
+2024-09-02 20:32:41.740 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.352098 
+2024-09-02 20:32:41.741 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.700241 
+2024-09-02 20:32:41.742 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 0.000000 
+2024-09-02 20:32:41.743 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-02 20:32:41.745 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.850514, queryValues[queryPos] = 0.966211
+2024-09-02 20:32:41.747 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-02 20:32:41.749 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.231218, queryValues[queryPos] = 0.829815
+2024-09-02 20:32:41.750 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-02 20:32:41.752 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.000000, queryValues[queryPos] = 0.352098
+2024-09-02 20:32:41.754 INFO  [1981707] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 10:35:34.721 INFO  [2289150] [preboot@52] [1B] SIM
+2024-09-03 10:35:34.721 INFO  [2289150] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-03 10:35:34.721 INFO  [2289150] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-03 10:35:34.721 INFO  [2289150] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 10:35:34.721 INFO  [2289150] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:35:34.721 INFO  [2289150] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 10:35:34.721 INFO  [2289150] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-03 10:35:34.722 INFO  [2289150] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-03 10:35:35.146 INFO  [2289150] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-03 10:35:35.270 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 10:35:35.271 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 10:35:35.272 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 503 
+2024-09-03 10:35:35.273 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 10:35:35.274 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 10:35:35.275 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 10:35:35.276 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 10:35:35.277 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 10:35:35.278 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 10:35:35.279 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 10:35:35.280 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 10:35:35.281 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 10:35:35.282 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 10:35:35.283 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 10:35:35.284 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 10:35:35.285 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 10:35:35.286 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 10:35:35.287 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 10:35:35.288 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 10:35:35.289 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 10:35:35.290 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 10:35:35.291 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 10:35:35.292 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 10:35:35.293 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 10:35:35.294 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 10:35:35.295 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 10:35:35.296 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 10:35:35.297 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 10:35:35.298 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 10:35:35.299 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 10:35:35.300 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 10:35:35.301 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 10:35:35.302 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 10:35:35.303 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 10:35:35.304 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 10:35:35.306 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 10:35:35.308 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.850514, queryValues[queryPos] = 0.966211
+2024-09-03 10:35:35.309 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 10:35:35.311 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.231218, queryValues[queryPos] = 0.829815
+2024-09-03 10:35:35.313 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 10:35:35.315 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.000000, queryValues[queryPos] = 0.352098
+2024-09-03 10:35:35.316 INFO  [2289150] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 10:38:10.722 INFO  [2290547] [preboot@52] [1B] SIM
+2024-09-03 10:38:10.723 INFO  [2290547] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-03 10:38:10.723 INFO  [2290547] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-03 10:38:10.723 INFO  [2290547] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 10:38:10.723 INFO  [2290547] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:38:10.723 INFO  [2290547] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 10:38:10.723 INFO  [2290547] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 10:38:10.723 INFO  [2290547] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-03 10:38:10.724 INFO  [2290547] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-03 10:38:11.152 INFO  [2290547] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-03 10:38:11.277 INFO  [2290547] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 10:38:11.278 INFO  [2290547] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 10:38:11.279 INFO  [2290547] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 10:38:11.280 INFO  [2290547] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 0.000000
+2024-09-03 10:39:07.646 INFO  [2291277] [preboot@52] [1B] SIM
+2024-09-03 10:39:07.646 INFO  [2291277] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@241] [uB] SVN REVISION : 0
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@242] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@243] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@244] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@245] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@246] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@247] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@248] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@249] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@250] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@251] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@252] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@253] [uB] ENABLE GAIA : 0
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::printConfig@254] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::initPhase@48] [uB] start Dram zero fill
+2024-09-03 10:39:07.646 INFO  [2291277] [HalP5::initPhase@50] [uB] done Dram zero fill
+2024-09-03 10:39:07.647 INFO  [2291277] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 10:39:07.647 INFO  [2291277] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 10:39:07.647 INFO  [2291277] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MuManager::initImpl@209] [uB] loadMuBinary
+2024-09-03 10:39:07.647 INFO  [2291277] [bsp::p5::MuManager::initImpl@213] [uB] initHifSub
+2024-09-03 10:39:07.648 INFO  [2291277] [bsp::p5::MuManager::initImpl@218] [uB] initMasterSub
+2024-09-03 10:39:07.648 INFO  [2291277] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 0
+2024-09-03 10:39:07.648 INFO  [2291277] [bsp::p5::MuManager::initImpl@224] [uB] initMtsSub 1
+2024-09-03 10:39:08.074 INFO  [2291277] [bsp::p5::MuManager::handleMxPacket@162] [uB] sub0 bin load
+2024-09-03 10:39:08.198 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 10:39:08.199 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 10:39:08.200 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 503 
+2024-09-03 10:39:08.201 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 10:39:08.202 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 10:39:08.203 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 10:39:08.204 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 10:39:08.205 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 10:39:08.206 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 10:39:08.207 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 10:39:08.208 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 10:39:08.209 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 10:39:08.210 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 10:39:08.211 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 10:39:08.212 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 10:39:08.213 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 10:39:08.214 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 10:39:08.215 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 10:39:08.216 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 10:39:08.218 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 10:39:08.218 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 10:39:08.219 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 10:39:08.220 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 10:39:08.221 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 10:39:08.222 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 10:39:08.223 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 10:39:08.224 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 10:39:08.225 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 10:39:08.226 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 10:39:08.227 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 10:39:08.228 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 10:39:08.229 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 10:39:08.230 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 10:39:08.231 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 10:39:08.232 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 10:39:08.234 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 10:39:08.236 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.850514, queryValues[queryPos] = 0.966211
+2024-09-03 10:39:08.237 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 10:39:08.239 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.231218, queryValues[queryPos] = 0.829815
+2024-09-03 10:39:08.241 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 10:39:08.243 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] docValues[docPos] = 0.000000, queryValues[queryPos] = 0.352098
+2024-09-03 10:39:08.244 INFO  [2291277] [bsp::p5::PrintManager::printQueue@84] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 11:21:28.559 INFO  [2404461] [preboot@52] [1B] SIM
+2024-09-03 11:21:28.559 INFO  [2404461] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-03 11:21:28.559 INFO  [2404461] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-03 11:21:28.559 INFO  [2404461] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 11:21:28.559 INFO  [2404461] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 11:21:28.560 INFO  [2404461] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-03 11:21:28.560 INFO  [2404461] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-03 11:21:28.977 INFO  [2404461] [bsp::p5::MuManager::handleMxPacket@166] [uB] sub0 bin load
+2024-09-03 11:21:29.102 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 11:21:29.103 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 11:21:29.105 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 503 
+2024-09-03 11:21:29.106 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 11:21:29.107 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 11:21:29.107 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 11:21:29.108 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 11:21:29.109 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 11:21:29.110 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 11:21:29.112 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 11:21:29.113 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 11:21:29.114 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 11:21:29.115 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 11:21:29.116 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 11:21:29.117 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 11:21:29.118 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 11:21:29.119 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 11:21:29.121 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 11:21:29.122 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 11:21:29.123 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 11:21:29.124 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 11:21:29.125 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 11:21:29.125 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 11:21:29.126 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 11:21:29.127 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 11:21:29.128 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 11:21:29.129 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 11:21:29.130 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 11:21:29.131 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 11:21:29.132 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 11:21:29.134 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 11:21:29.135 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 11:21:29.136 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 11:21:29.137 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 11:21:29.138 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 11:21:29.140 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 11:21:29.142 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[3] = 0.850514, queryValues[0] = 0.966211
+2024-09-03 11:21:29.144 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 11:21:29.146 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[5] = 0.231218, queryValues[2] = 0.829815
+2024-09-03 11:21:29.148 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 11:21:29.150 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[8] = 0.000000, queryValues[4] = 0.352098
+2024-09-03 11:21:29.152 INFO  [2404461] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 12:08:37.516 INFO  [2425008] [preboot@52] [1B] SIM
+2024-09-03 12:08:37.516 INFO  [2425008] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-03 12:08:37.516 INFO  [2425008] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-03 12:08:37.516 INFO  [2425008] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 12:08:37.516 INFO  [2425008] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 12:08:37.517 INFO  [2425008] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-03 12:08:37.517 INFO  [2425008] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-03 12:08:37.932 INFO  [2425008] [bsp::p5::MuManager::handleMxPacket@166] [uB] sub0 bin load
+2024-09-03 12:08:38.060 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 12:08:38.061 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 12:08:38.062 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 503 
+2024-09-03 12:08:38.063 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 12:08:38.064 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 12:08:38.065 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 12:08:38.066 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 12:08:38.067 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 12:08:38.068 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 12:08:38.069 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 12:08:38.070 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 12:08:38.071 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 12:08:38.072 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 12:08:38.073 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 12:08:38.075 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 12:08:38.076 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 12:08:38.077 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 12:08:38.078 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 12:08:38.079 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 12:08:38.080 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 12:08:38.081 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 12:08:38.082 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 12:08:38.083 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 12:08:38.084 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 12:08:38.085 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 12:08:38.086 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 12:08:38.087 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 12:08:38.088 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 12:08:38.089 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 12:08:38.090 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 12:08:38.091 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 12:08:38.093 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 12:08:38.094 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 12:08:38.095 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 12:08:38.096 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 12:08:38.097 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 12:08:38.100 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[3] = 0.850514, queryValues[0] = 0.966211
+2024-09-03 12:08:38.101 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 12:08:38.104 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[5] = 0.231218, queryValues[2] = 0.829815
+2024-09-03 12:08:38.105 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 12:08:38.108 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[8] = 0.000000, queryValues[4] = 0.352098
+2024-09-03 12:08:38.109 INFO  [2425008] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 13:34:48.487 INFO  [2467969] [preboot@52] [1B] SIM
+2024-09-03 13:34:48.487 INFO  [2467969] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-03 13:34:48.488 INFO  [2467969] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-03 13:34:48.488 INFO  [2467969] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 13:34:48.488 INFO  [2467969] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 13:34:48.488 INFO  [2467969] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 13:34:48.488 INFO  [2467969] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 13:34:48.488 INFO  [2467969] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 13:34:48.488 INFO  [2467969] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 13:34:48.488 INFO  [2467969] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-03 13:34:48.489 INFO  [2467969] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-03 13:34:48.903 INFO  [2467969] [bsp::p5::MuManager::handleMxPacket@166] [uB] sub0 bin load
+2024-09-03 13:34:49.028 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 13:34:49.029 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 13:34:49.030 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 503 
+2024-09-03 13:34:49.031 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 13:34:49.033 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 13:34:49.033 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 13:34:49.034 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 13:34:49.035 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 13:34:49.036 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 13:34:49.037 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 13:34:49.038 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 13:34:49.039 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 13:34:49.040 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 13:34:49.041 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 13:34:49.043 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 13:34:49.044 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 13:34:49.045 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 13:34:49.046 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 13:34:49.047 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 13:34:49.048 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 13:34:49.049 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 13:34:49.050 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 13:34:49.051 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 13:34:49.052 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 13:34:49.053 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 13:34:49.054 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 13:34:49.055 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 13:34:49.056 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 13:34:49.057 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 13:34:49.058 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 13:34:49.059 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 13:34:49.061 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 13:34:49.062 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 13:34:49.062 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 13:34:49.064 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 13:34:49.065 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 13:34:49.068 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[3] = 0.850514, queryValues[0] = 0.966211
+2024-09-03 13:34:49.069 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 13:34:49.072 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[5] = 0.231218, queryValues[2] = 0.829815
+2024-09-03 13:34:49.073 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 13:34:49.076 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[8] = 0.000000, queryValues[4] = 0.352098
+2024-09-03 13:34:49.077 INFO  [2467969] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-03 13:35:07.655 INFO  [2468413] [preboot@52] [1B] SIM
+2024-09-03 13:35:07.655 INFO  [2468413] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-03 13:35:07.655 INFO  [2468413] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-03 13:35:07.655 INFO  [2468413] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-03 13:35:07.655 INFO  [2468413] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-03 13:35:07.655 INFO  [2468413] [initHalP5@51] [uB] init Hal P5 done
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-03 13:35:07.656 INFO  [2468413] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-03 13:35:08.072 INFO  [2468413] [bsp::p5::MuManager::handleMxPacket@166] [uB] sub0 bin load
+2024-09-03 13:35:08.198 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel started
+2024-09-03 13:35:08.199 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] Doc Indices: 
+2024-09-03 13:35:08.201 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 503 
+2024-09-03 13:35:08.202 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 2696 
+2024-09-03 13:35:08.203 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 3448 
+2024-09-03 13:35:08.203 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 4531 
+2024-09-03 13:35:08.204 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 6582 
+2024-09-03 13:35:08.205 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 9267 
+2024-09-03 13:35:08.206 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 11475 
+2024-09-03 13:35:08.207 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 11566 
+2024-09-03 13:35:08.209 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 14918 
+2024-09-03 13:35:08.210 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.118419 
+2024-09-03 13:35:08.211 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.828746 
+2024-09-03 13:35:08.212 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.728158 
+2024-09-03 13:35:08.213 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.850514 
+2024-09-03 13:35:08.214 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.506669 
+2024-09-03 13:35:08.215 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.231218 
+2024-09-03 13:35:08.216 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.083023 
+2024-09-03 13:35:08.218 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (7) 0.264457 
+2024-09-03 13:35:08.219 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (8) 0.000000 
+2024-09-03 13:35:08.219 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] 
+Query Indices: 
+2024-09-03 13:35:08.220 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 4531 
+2024-09-03 13:35:08.221 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 5160 
+2024-09-03 13:35:08.222 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 9267 
+2024-09-03 13:35:08.223 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 12990 
+2024-09-03 13:35:08.224 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 14918 
+2024-09-03 13:35:08.225 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 17731 
+2024-09-03 13:35:08.226 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 18824 
+2024-09-03 13:35:08.227 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (0) 0.966211 
+2024-09-03 13:35:08.228 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (1) 0.977599 
+2024-09-03 13:35:08.230 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (2) 0.829815 
+2024-09-03 13:35:08.231 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (3) 0.924045 
+2024-09-03 13:35:08.232 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (4) 0.352098 
+2024-09-03 13:35:08.233 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (5) 0.700241 
+2024-09-03 13:35:08.234 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] (6) 0.000000 
+2024-09-03 13:35:08.235 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 4531, queryIndex = 4531
+2024-09-03 13:35:08.238 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[3] = 0.850514, queryValues[0] = 0.966211
+2024-09-03 13:35:08.240 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 9267, queryIndex = 9267
+2024-09-03 13:35:08.242 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[5] = 0.231218, queryValues[2] = 0.829815
+2024-09-03 13:35:08.243 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docIndex = 14918, queryIndex = 14918
+2024-09-03 13:35:08.246 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] docValues[8] = 0.000000, queryValues[4] = 0.352098
+2024-09-03 13:35:08.247 INFO  [2468413] [bsp::p5::PrintManager::printQueue@86] [MTS][0][0_0_0] inverted index kernel finished. result = 1.013644
+2024-09-26 14:55:35.086 INFO  [322406] [preboot@52] [1B] SIM
+2024-09-26 14:55:35.086 INFO  [322406] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 14:55:35.086 INFO  [322406] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 14:55:35.086 INFO  [322406] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 14:55:35.086 INFO  [322406] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 14:55:35.087 INFO  [322406] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 14:55:35.087 INFO  [322406] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 14:55:35.088 INFO  [322406] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 14:55:35.088 INFO  [322406] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 14:55:35.088 INFO  [322406] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 14:55:35.088 INFO  [322406] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:09:05.121 INFO  [332236] [preboot@52] [1B] SIM
+2024-09-26 15:09:05.121 INFO  [332236] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:09:05.121 INFO  [332236] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:09:05.121 INFO  [332236] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:09:05.121 INFO  [332236] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:09:05.122 INFO  [332236] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:09:05.122 INFO  [332236] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:09:05.123 INFO  [332236] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:09:05.123 INFO  [332236] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:11:35.407 INFO  [334612] [preboot@52] [1B] SIM
+2024-09-26 15:11:35.407 INFO  [334612] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:11:35.407 INFO  [334612] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:11:35.407 INFO  [334612] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:11:35.407 INFO  [334612] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:11:35.408 INFO  [334612] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:11:35.408 INFO  [334612] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:11:35.409 INFO  [334612] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:11:35.409 INFO  [334612] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:13:36.671 INFO  [336529] [preboot@52] [1B] SIM
+2024-09-26 15:13:36.671 INFO  [336529] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:13:36.671 INFO  [336529] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:13:36.671 INFO  [336529] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:13:36.671 INFO  [336529] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:13:36.671 INFO  [336529] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:13:36.671 INFO  [336529] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:13:36.672 INFO  [336529] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:22:37.333 INFO  [345081] [preboot@52] [1B] SIM
+2024-09-26 15:22:37.333 INFO  [345081] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:22:37.333 INFO  [345081] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:22:37.333 INFO  [345081] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:22:37.333 INFO  [345081] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:22:37.334 INFO  [345081] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:22:37.334 INFO  [345081] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:22:37.335 INFO  [345081] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:22:37.335 INFO  [345081] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:22:37.335 INFO  [345081] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:23:05.838 INFO  [345578] [preboot@52] [1B] SIM
+2024-09-26 15:23:05.838 INFO  [345578] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:23:05.838 INFO  [345578] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:23:05.839 INFO  [345578] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:23:05.839 INFO  [345578] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:23:05.839 INFO  [345578] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:23:05.839 INFO  [345578] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:23:05.840 INFO  [345578] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:23:05.840 INFO  [345578] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:23:05.840 INFO  [345578] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:23:05.840 INFO  [345578] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:28:28.605 INFO  [349949] [preboot@52] [1B] SIM
+2024-09-26 15:28:28.605 INFO  [349949] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:28:28.605 INFO  [349949] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:28:28.605 INFO  [349949] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:28:28.605 INFO  [349949] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:28:28.605 INFO  [349949] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:28:28.605 INFO  [349949] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:28:28.606 INFO  [349949] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 15:53:28.937 INFO  [368917] [preboot@52] [1B] SIM
+2024-09-26 15:53:28.937 INFO  [368917] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 15:53:28.937 INFO  [368917] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 15:53:28.937 INFO  [368917] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 15:53:28.937 INFO  [368917] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 15:53:28.937 INFO  [368917] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 15:53:28.937 INFO  [368917] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 15:53:28.938 INFO  [368917] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
+2024-09-26 16:25:15.575 INFO  [392389] [preboot@52] [1B] SIM
+2024-09-26 16:25:15.575 INFO  [392389] [Hal::earlyInit@41] [uB::earlyInit] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@244] [uB] SVN REVISION : 0
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@245] [uB] ENABLE MSUB BITMAP : 0x3
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@246] [uB] ENABLE MSUB0 CLST BITMAP : 0xf
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@247] [uB] ENABLE MSUB0 MU BITMAP : 0xff
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@248] [uB] ENABLE TSUB CLST BITMAP : 0x1
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@249] [uB] ENABLE TSUB MU BITMAP : 0xff
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@250] [uB] ENABLE HIF MU BITMAP : 0xff
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@251] [uB] ENABLE DCOH MU BITMAP : 0xff
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@252] [uB] ENABLE DDR SUB BITMAP : 0x1
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@253] [uB] ENABLE L2 TOP BITMAP : 0x1
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@254] [uB] ENABLE L2 CLST COUNT PER TOP : 0
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@255] [uB] ENABLE L2 COUNT PER CLST : 2
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@256] [uB] ENABLE GAIA : 0
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::printConfig@257] [uB] ENABLE GAIA SUB ID : 0x0
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::initPhase@49] [uB] start Dram zero fill
+2024-09-26 16:25:15.575 INFO  [392389] [HalP5::initPhase@51] [uB] done Dram zero fill
+2024-09-26 16:25:15.575 INFO  [392389] [preboot@81] [uB::earlyInit] earlyInit done.
+2024-09-26 16:25:15.575 INFO  [392389] [Hal::init@53] [uB:Init] Phase = 8 ([0]P3 / [1]P4.1 / [2]P4.2 / [5]P4.5 / [6]P4.6 / [4]P4 / [8]P5)
+2024-09-26 16:25:15.576 INFO  [392389] [initHalP5@51] [uB] init Hal P5 done
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@24] Mcluster Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@57] Master Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@65] Ddr Sub Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@74] Hif Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@78] DCOH Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MboxSetup::init@82] Host Mbox Setup
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MuManager::initImpl@314] [uB] loadMuBinary
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MuManager::initImpl@318] [uB] initHifSub
+2024-09-26 16:25:15.576 INFO  [392389] [bsp::p5::MuManager::initImpl@323] [uB] initMasterSub
+2024-09-26 16:25:15.577 INFO  [392389] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 0
+2024-09-26 16:25:15.577 INFO  [392389] [bsp::p5::MuManager::initImpl@329] [uB] initMtsSub 1
